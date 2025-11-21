@@ -17,7 +17,7 @@ bAbshari>=0 ? alamatb="+" : alamatb=""
 
 
    
-if(isNaN(aAbshari)||isNaN(bAbshari)||isNaN(xAbshari)){ document.getElementById("zabeteAbshari").textContent ="لطفا عدد وارد کنید"; document.getElementById("fxAbshari").textContent="" }
+if(isNaN(aAbshari)||isNaN(bAbshari)||isNaN(xAbshari)){ document.getElementById("zabeteAbshari").textContent ="لطفا عدد انگلیسی وارد کنید"; document.getElementById("fxAbshari").textContent="" }
 else{    document.getElementById("zabeteAbshari").textContent =
         `f(x)= |x${alamata}${aAbshari}| - |x${alamatb}${bAbshari}|`;
      document.getElementById("fxAbshari").textContent=`f(${xAbshari})=${fxAbshari}` }
@@ -40,7 +40,7 @@ cSahmi>=0 ? alamatcSahmi="+" : alamatcSahmi=""
 
 
     
-if(isNaN(aSahmi)||isNaN(bSahmi)||isNaN(xSahmi)||isNaN(cSahmi)){ document.getElementById("zabeteSahmi").textContent ="لطفا عدد وارد کنید"; document.getElementById("fxSahmi").textContent="" }
+if(isNaN(aSahmi)||isNaN(bSahmi)||isNaN(xSahmi)||isNaN(cSahmi)){ document.getElementById("zabeteSahmi").textContent ="لطفا عدد انگلیسی وارد کنید"; document.getElementById("fxSahmi").textContent="" }
 else{if(aSahmi==0) {document.getElementById("fxSahmi").textContent=""  ; document.getElementById("zabeteSahmi").textContent ="a نمی تواند صفر باشد" }  
  else{   
 document.getElementById("zabeteSahmi").textContent =
@@ -71,12 +71,13 @@ aGoldani>=0 ? alamataGoldani="+" : alamataGoldani=""
 bGoldani>=0 ? alamatbGoldani="+" : alamatbGoldani=""
 
 
-if(isNaN(aGoldani)||isNaN(bGoldani)||isNaN(xGoldani)){ document.getElementById("zabeteGoldani").textContent ="لطفا عدد وارد کنید"; document.getElementById("fxGoldani").textContent="" }
+if(isNaN(aGoldani)||isNaN(bGoldani)||isNaN(xGoldani)){ document.getElementById("zabeteGoldani").textContent ="لطفا عدد انگلیسی وارد کنید"; document.getElementById("fxGoldani").textContent="" }
    else{ document.getElementById("zabeteGoldani").textContent =
         `f(x)= |x${alamataGoldani}${aGoldani}| + |x${alamatbGoldani}${bGoldani}|`;
      document.getElementById("fxGoldani").textContent=`f(${xGoldani})=${fxGoldani}` }
 
 }
+
 
 
 
